@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/main-music/mian-music",
+        "pages/mian-video/mian-video",
+        "components/video-item/video-item",
+        "pages/detail-video/detail-devio",
+        "pages/detail-search/detail-search",
+        "components/area-Header/area-Header",
+        "components/song-item-v1/song-item",
+        "pages/detail-songs/detail-songs",
+        "components/menu-item/menu-item",
+        "components/menu-area/menu-area",
+        "pages/detail-menu/detail-menu",
+        "components/ranking-item/ranking-item",
+        "components/song-item-v2/song-item-v2",
+        "components/menu-header/menu-header",
+        "pages/music-player/music-player",
+        "components/nav-bar/nav-bar"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "MyMusic",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/main-music/mian-music",
+                "text": "音乐",
+                "iconPath": "/assets/images/tabbar/music_normal.png",
+                "selectedIconPath": "/assets/images/tabbar/music_active.png"
+            },
+            {
+                "pagePath": "pages/mian-video/mian-video",
+                "text": "MV",
+                "iconPath": "/assets/images/tabbar/video_normal.png",
+                "selectedIconPath": "/assets/images/tabbar/video_active.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
